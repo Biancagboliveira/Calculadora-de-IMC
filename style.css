@@ -1,0 +1,46 @@
+@charset "utf-8"
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 3.0rem;
+    background-color: #a79f71;
+    
+}
+
+div{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+nav{
+    background:#5b5847 ;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    height:40px;
+    width: 100%;
+}
+
+span{
+    color: #48463b;
+}
+
+footer{
+    display: block;
+    position: relative;
+    width: 100%;
+    bottom: 0vh;
+    background-color: #5b5847;
+    text-align: center;
+    padding: -1rem;
+    font-size: 1.7vw;
+    color: #a79f71;
+}
